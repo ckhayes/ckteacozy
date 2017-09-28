@@ -1,0 +1,178 @@
+h1 {
+  text-align: center;
+
+}
+
+#blends h3 {
+  text-align: center;
+}
+
+
+
+.flex-container {
+  display: flex;
+  /*justify-content: center;*/
+  /*flex-wrap: wrap;*/
+  flex-direction: row;
+
+}
+header {
+position: fixed;
+height: 85px;
+z-index: 2;
+align-items: center;
+width: 100%;
+border-bottom: 1px solid seashell;
+background-color: black;
+color: seashell;
+
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+  align-items: center;
+  padding-top: 15px;
+}
+header nav {
+  text-align: right;
+  justify-content: center;
+  width: 100%;
+}
+
+span {
+  display: inline-block;
+  text-align: right;
+  padding-right: 20px;
+  justify-content: center;
+  text-align: right;
+  justify-content: center;
+}
+
+a {
+  color: seashell;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+  color: seashell;
+}
+
+body {
+display: block;
+margin: 0;
+text-align: center;
+
+}
+
+.main {
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  font-family: Helvetica;
+  opacity: 0.9;
+  align-items: center;
+}
+
+#top {
+display: inline-flex;
+background-image: url(/Users/mobials/Desktop/ckteacozy/Resources/images/img-mission-background.jpg);
+height: 700px;
+padding-top: 70px;
+width: 1200px;
+align-items: center;
+}
+
+.mission {
+display: block;
+text-align: center;
+padding: 10px;
+background-color: black;
+width: 1200px;
+margin: 0
+height: 50px;
+}
+
+.middle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+#locations {
+  background-image: url(/Users/mobials/Desktop/ckteacozy/Resources/images/img-locations-background.jpg);
+  height: 500px;
+  padding: 60px;
+  width: 1100px;
+  align-items: center;
+  margin: auto;
+}
+
+#locations h2 {
+  text-align: center;
+}
+
+#locations .container {
+  margin: auto;
+  width: 1100px;
+}
+
+.container .locations {
+  padding-top: 5px;
+}
+
+.container .locations h2 {
+  text-align: center;
+  padding: 10px;
+  display: block;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.location {
+  display: flex;
+  height: 277px;
+  width: 277px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-basis: 280px;
+  padding: 10px;
+background-color: black;
+margin: 5px 20px;
+align-items: center;
+
+}
+
+.footer {
+height: 200px;
+}
+
+.footer h3 {
+  text-align: center;
+}
+
+.footer h5 {
+  text-align: center;
+}
+
+.copyright h5 {
+  text-align: left;
+  padding-left: 20px;
+}
